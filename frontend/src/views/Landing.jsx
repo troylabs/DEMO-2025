@@ -214,7 +214,7 @@ function Landing() {
         } min-w-full p-8 text-center min-h-screen w-full relative h-full flex flex-col items-center text-white justify-center`}
       >
         <h3 className="text-2xl relative z-20 font-bold tracking-wider text-[#C1C1CD]">
-          April 23rd • 11AM to 8PM • USC TCC Ballroom
+          April 22nd • 11AM to 8PM • USC TCC Ballroom
         </h3>
         <h1
           id="DEMO-Shadow"
@@ -222,7 +222,7 @@ function Landing() {
             isMobile ? "text-6xl" : "text-8xl"
           } relative z-20 font-black mt-2 bg-gradient-to-t from-[#116AB8] to-[#91BCE1] text-transparent leading-normal inline-block bg-clip-text`}
         >
-          DEMO 2025
+          DEMO 2026
         </h1>
         <h4 className="text-2xl  relative z-20 text-[#C2C2CD] font-medium mt-4">
           USC’s Largest Student Organized Entrepreneurship Conference
@@ -270,7 +270,7 @@ function Landing() {
       >
         <h3 className="text-[#747478] font-medium text-lg">What is DEMO?</h3>
         <h1 className="text-5xl mt-2 font-bold bg-gradient-to-t from-[#116AB8] to-[#91BCE1] text-transparent leading-normal inline-block bg-clip-text">
-          TroyLabs presents DEMO 2025
+          TroyLabs presents DEMO 2026
         </h1>
         <h2 className="text-xl font-bold text-white mt-4">
           Empowering USC's Next Generation of Entrepreneurs
@@ -342,7 +342,7 @@ function Landing() {
           isMobile ? "p-8" : "p-24"
         } text-white`}
       >
-        <h3 className="text-[#747478] font-medium text-lg">April 23, 2025</h3>
+        <h3 className="text-[#747478] font-medium text-lg">April 22, 2025</h3>
         <h1 className="text-5xl mt-2 font-bold bg-gradient-to-t from-[#116AB8] to-[#91BCE1] text-transparent leading-normal inline-block bg-clip-text">
           DEMO Agenda
         </h1>
@@ -855,7 +855,7 @@ function Landing() {
         </h1>
         <h2 className="text-lg text-center font-medium tracking-wider text-white">
           Thank you for the support of our sponsors to provide opportunities at
-          DEMO 2025!
+          DEMO 2026!
         </h2>
         <div
           className={`${
