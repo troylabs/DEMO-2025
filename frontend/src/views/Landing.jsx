@@ -236,7 +236,7 @@ function Landing() {
         </h5>
         <div className="flex relative z-20 flex-row w-full items-center mt-12 justify-center gap-8">
           <a
-            href="https://www.eventbrite.com/e/demo-2025-entrepreneurship-conference-tickets-1257671050969?utm-campaign=social&utm-content=attendeeshare&utm-medium=discovery&utm-term=listing&utm-source=cp&aff=ebdsshcopyurl"
+            href="https://form.typeform.com/to/xmqWPpON"
             target="_blank"
             rel="noreferrer"
             className="HeroButton-Shadow text-lg cursor-pointer font-semibold text-[#DEE0E3] p-2 px-6 rounded-lg bg-[#131315] border-2 border-[#1A4265] hover:bg-[#1F1F23] hover:shadow-inner active:bg-[#0C0C0D] transition-all hover:shadow-slate-700"

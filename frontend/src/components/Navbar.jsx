@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import DEMOLogo from "../assets/DEMOLogo.png";
+import DEMOLogo from "../assets/DEMORocket.svg";
 import SponsorshipPdf from "../assets/DEMOsponsorship.pdf";
 import { useLocation, useNavigate } from "react-router-dom";
 import { MenuIcon, XIcon } from "@heroicons/react/solid";
@@ -58,12 +58,13 @@ function Navbar() {
 
   return (
     <header className="w-full h-[75px] flex flex-row justify-between items-center px-8 p-4 fixed top-0 z-50 bg-[#131313]/20 backdrop-blur">
-      <img
+      {/* <img
         alt="Demo 2025 Logo — Presented by TroyLabs"
         src={DEMOLogo}
         className="h-full w-auto cursor-pointer"
         onClick={() => navigate("/")}
-      />
+      /> */}
+      <div className="h-full w-auto cursor-pointer w-44" onClick={() => navigate("/")} />
       {!isMobile ? (
         // Desktop view
         <>
@@ -83,7 +84,7 @@ function Navbar() {
             ))}
           </div>
           <a
-            href="https://www.eventbrite.com/e/demo-2025-entrepreneurship-conference-tickets-1257671050969?utm-campaign=social&utm-content=attendeeshare&utm-medium=discovery&utm-term=listing&utm-source=cp&aff=ebdsshcopyurl"
+            href="https://form.typeform.com/to/xmqWPpON"
             target="_blank"
             rel="noreferrer"
             className="HeroButton-Shadow text-sm cursor-pointer font-semibold text-[#DEE0E3] p-2 px-6 rounded-lg bg-[#131315] border-2 border-[#1A4265] hover:bg-[#1F1F23] hover:shadow-inner active:bg-[#0C0C0D] transition-all hover:shadow-slate-700"
