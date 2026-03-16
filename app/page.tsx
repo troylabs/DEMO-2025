@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { Button } from "@/components/ui/button";
 
 export default function Home() {
   return (
@@ -109,24 +110,23 @@ export default function Home() {
         </p>
 
         {/* Sponsor Line */}
-        <p className="mb-10 text-sm text-gray-500 md:text-base">
+        <p className="mb-6 text-sm text-gray-500 md:text-base">
           Sponsored by the USC Lloyd Greif Center for Entrepreneurial Studies
         </p>
 
         {/* CTA Buttons */}
-        <div className="mb-4 flex flex-col gap-4 sm:flex-row">
-          <a
-            href="#"
-            className="flex h-12 items-center justify-center rounded-md border border-gray-400 px-8 text-sm font-medium text-white transition-colors hover:border-white hover:bg-white/5"
+        <div className="mb-2 flex flex-col gap-2 sm:flex-row">
+          <Button
+            variant="outline"
+            className="px-5 py-5 border-[#1A4265] border-2 text-[#DEE0E3] font-bold text-lg hover:border-[#F1F1F1]"
           >
             Sponsor Us
-          </a>
-          <a
-            href="#"
-            className="flex h-12 items-center justify-center rounded-md bg-[#3B88CC] px-8 text-sm font-medium text-white transition-colors hover:bg-[#4A9BE0]"
+          </Button>
+          <Button
+            className="px-5 py-5 bg-[#3B88CC] text-[#DEE0E3] font-bold text-lg hover:bg-[#4A9BE0] bg-gradient-to-b to-[#274AFF] from-[#2797FF]"
           >
             Startup Application
-          </a>
+          </Button>
         </div>
 
         {/* Contact Link */}
