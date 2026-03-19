@@ -1,6 +1,38 @@
 import Image from "next/image";
 import { StartupDatabase } from "@/components/startup-database";
 import { SponsorUsButton, StartupApplicationButton } from "@/components/cta-buttons";
+import { LogoCarousel } from "@/components/logo-carousel";
+
+// Company logos for carousels
+const speakerLogos = [
+  "/demo-legacy/company-logos/1024px-TinderLogo-2017 9.png",
+  "/demo-legacy/company-logos/1024px-TinderLogo-2017 8.png",
+  "/demo-legacy/company-logos/1024px-TinderLogo-2017 7.png",
+  "/demo-legacy/company-logos/1024px-TinderLogo-2017 6.png",
+  "/demo-legacy/company-logos/image 47.png",
+  "/demo-legacy/company-logos/image 46.png",
+];
+
+const startupLogos = [
+  "/demo-legacy/company-logos/9ac82f410c713f822540b85fdd5af85e4407b730.png",
+  "/demo-legacy/company-logos/468e4901a88422c018d3a0cfeab25f713b8c336e.png",
+  "/demo-legacy/company-logos/3e25aed533824dc9f30976e44ddbec8460481f0e.png",
+  "/demo-legacy/company-logos/7dcf83f28ebbb5ececdb9afc3fc2207afe60f896.png",
+  "/demo-legacy/company-logos/altro 2.png",
+  "/demo-legacy/company-logos/b76fb84b-logo-original 2.png",
+  "/demo-legacy/company-logos/e0f4e4fb2c36abe379f204eebdf3aac2a3fd0373.png",
+  "/demo-legacy/company-logos/eb9a7d9cf228f732bb20f76b8ae1ef55452a793c.png",
+];
+
+const investorLogos = [
+  "/demo-legacy/company-logos/79b2b474e10f45302db30d0ef47f8cb6e11ee5e0.png",
+  "/demo-legacy/company-logos/de0f31fc6841f74cfcab432052a5a31c16eaca3f.png",
+  "/demo-legacy/company-logos/061a8bc12dd7c8a5ea181acb0b7bca63998812b4.png",
+  "/demo-legacy/company-logos/d03055610eda3a8737e7a7589fe494625d7c2ce3.png",
+  "/demo-legacy/company-logos/20cdffa4583fcbf2eb9228f886c479a9dd73e28d.png",
+  "/demo-legacy/company-logos/1e2e35977af1947f0bd3a192b84a29d6a58deeec.png",
+  "/demo-legacy/company-logos/c1922abc98cc1f0b255a4a765d9ca80df453d9f7.png",
+];
 
 export default function Home() {
   return (
@@ -338,33 +370,21 @@ export default function Home() {
 
           {/* Past Speakers */}
           <p className="mb-4 text-lg text-white">Past Speakers</p>
-          <Image
-            src="/demo-legacy/Frame 2133.svg"
-            alt="Past Speakers logos"
-            width={800}
-            height={80}
-            className="mb-6 max-w-full"
-          />
+          <div className="mb-6">
+            <LogoCarousel height={20} logos={speakerLogos} direction="right" speed={25} />
+          </div>
 
           {/* Past Startups */}
           <p className="mb-4 text-lg text-white">Past Startups</p>
-          <Image
-            src="/demo-legacy/Frame 2134.svg"
-            alt="Past Startups logos"
-            width={800}
-            height={80}
-            className="mb-6 max-w-full"
-          />
+          <div className="mb-6">
+            <LogoCarousel height={10} logos={startupLogos} direction="right" speed={25} />
+          </div>
 
           {/* Past Investors */}
           <p className="mb-4 text-lg text-gray-300">Past Investors</p>
-          <Image
-            src="/demo-legacy/Frame 2135.svg"
-            alt="Past Investors logos"
-            width={800}
-            height={80}
-            className="max-w-full"
-          />
+          <div>
+            <LogoCarousel height={10} logos={investorLogos} direction="right" speed={25} />
+          </div>
         </div>
 
       </section>
