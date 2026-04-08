@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { StartupDatabase } from "@/components/startup-database";
-import { SponsorUsButton, StartupApplicationButton } from "@/components/cta-buttons";
+import { SponsorUsButton, StartupApplicationButton, DemoRSVPButton } from "@/components/cta-buttons";
 import { LogoCarousel } from "@/components/logo-carousel";
 
 // Company logos for carousels
@@ -248,6 +248,7 @@ export default function Home() {
           <div className="mb-2 flex flex-col gap-2 sm:flex-row">
             <SponsorUsButton />
             <StartupApplicationButton />
+            <DemoRSVPButton />
           </div>
 
           {/* Contact Link */}

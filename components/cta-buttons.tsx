@@ -9,7 +9,7 @@ export function SponsorUsButton({ className = "" }: { className?: string }) {
     >
       <Button
         variant="default"
-        className={`px-5 py-5 border-[#1A4265] border-2 text-[#DEE0E3] font-bold text-lg hover:border-[#F1F1F1AA] bg-[#0A0A0A] ${className}`}
+        className={`cursor-pointer px-5 py-5 border-[#1A4265] border-2 text-[#DEE0E3] font-bold text-lg hover:border-[#F1F1F1AA] bg-[#0A0A0A] ${className}`}
       >
         Sponsor Us
       </Button>
@@ -25,9 +25,25 @@ export function StartupApplicationButton({ className = "" }: { className?: strin
       rel="noopener noreferrer"
     >
       <Button
-        className={`px-5 py-5 bg-gradient-to-b from-[#2797FF] to-[#274AFF] text-[#DEE0E3] font-bold text-lg hover:opacity-90 ${className}`}
+        className={`cursor-pointer px-5 py-5 bg-gradient-to-b from-[#2797FF] to-[#274AFF] text-[#DEE0E3] font-bold text-lg hover:opacity-90 ${className}`}
       >
         Startup Application
+      </Button>
+    </a>
+  );
+}
+
+export function DemoRSVPButton({ className = "" }: { className?: string }) {
+  return (
+    <a
+      href="https://doorlist.app/e/ddeSyII?s=FCxxLpRWj1"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <Button
+        className={`cursor-pointer px-5 py-5 bg-gradient-to-b from-[#2797FF] to-[#274AFF] text-[#DEE0E3] font-bold text-lg hover:opacity-90 ${className}`}
+      >
+        RSVP To Demo
       </Button>
     </a>
   );
