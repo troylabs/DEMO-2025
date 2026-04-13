@@ -453,14 +453,71 @@ export default function Home() {
             Thank you for the support of our sponsors to provide opportunities at DEMO 2026!
           </p>
 
-          {/* Sponsor Logos */}
+          {/* Sponsor Logos - Tier 1: USC Marshall, USG, Blackstone */}
           <Image
             src="/footer/Frame 2163.svg"
-            alt="Sponsor logos - USC Marshall, Blackstone LaunchPad, USG"
+            alt="Sponsor logos - USC Marshall, USG, Blackstone LaunchPad"
             width={700}
             height={100}
-            className="mb-16 max-w-full"
+            className="mb-10 max-w-full"
           />
+
+          {/* Sponsor Logos - Tier 2: Microsoft for Startups, super{set} */}
+          <div className="mb-10 flex items-center justify-center gap-16">
+            <Image
+              src="/footer/USC Startups Opportunity 1.png"
+              alt="Microsoft for Startups"
+              width={300}
+              height={44}
+              className="h-11 w-auto object-contain"
+            />
+            <Image
+              src="/footer/IMG_0735 1.png"
+              alt="super{set}"
+              width={220}
+              height={44}
+              className="h-11 w-auto object-contain"
+            />
+          </div>
+
+          {/* Sponsor Logos - Tier 3: Framer, Ditto, RILLA, VioletX, doorlist */}
+          <div className="mb-16 flex flex-wrap items-center justify-center gap-12">
+            <Image
+              src="/footer/Framer Wordmark (White Transparent) 1.png"
+              alt="Framer"
+              width={150}
+              height={36}
+              className="h-9 w-auto object-contain"
+            />
+            <Image
+              src="/footer/IMG_9384 1.png"
+              alt="Ditto"
+              width={130}
+              height={36}
+              className="h-9 w-auto object-contain"
+            />
+            <Image
+              src="/footer/Rilla TroyLabs Black Logo 1.png"
+              alt="RILLA"
+              width={150}
+              height={36}
+              className="h-9 w-auto object-contain"
+            />
+            <Image
+              src="/footer/VioletX 1.png"
+              alt="VioletX"
+              width={110}
+              height={26}
+              className="h-9 object-contain"
+            />
+            <Image
+              src="/footer/dl_longlogo_stacked_white 1.png"
+              alt="doorlist"
+              width={45}
+              height={42}
+              className="h-9"
+            />
+          </div>
 
           {/* ADA Accommodation */}
           <div className="mb-20 max-w-4xl">

@@ -1,7 +1,8 @@
 {
   "permissions": {
     "allow": [
-      "Bash(npx --yes agent-browser eval:*)"
+      "Bash(npx --yes agent-browser eval:*)",
+      "Bash(npx agent-browser:*)"
     ]
   }
 }
