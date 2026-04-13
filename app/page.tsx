@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { StartupDatabase } from "@/components/startup-database";
-import { SponsorUsButton, StartupApplicationButton, DemoRSVPButton } from "@/components/cta-buttons";
+import { SponsorUsButton, StartupApplicationButton, DemoRSVPButton, EventRSVPButton } from "@/components/cta-buttons";
 import { LogoCarousel } from "@/components/logo-carousel";
 
 // Company logos for carousels
@@ -196,7 +196,7 @@ export default function Home() {
             />
           </a>
 
-          <div className="flex items-center gap-8 text-sm text-gray-300">
+          <div className="absolute left-1/2 -translate-x-1/2 flex items-center gap-8 text-sm text-gray-300">
             <a
               href="https://drive.google.com/file/d/1JvNr2iwuHCQzTq_EkrKNJC1mpNcGlO0M/view?usp=sharing"
               target="_blank"
@@ -218,8 +218,7 @@ export default function Home() {
             </a> */}
           </div>
 
-          {/* Ghost element to balance the nav */}
-          <div className="w-[37px]" aria-hidden="true" />
+          <EventRSVPButton className="text-sm px-4 py-2" link="https://doorlist.app/e/HBEZvDK?s=FCxxLpRWj1" cta="Framer Designathon" />
         </nav>
 
         {/* Hero Content */}

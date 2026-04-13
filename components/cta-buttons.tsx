@@ -48,3 +48,19 @@ export function DemoRSVPButton({ className = "" }: { className?: string }) {
     </a>
   );
 }
+
+export function EventRSVPButton({ className = "", link = "", cta = "" }: { className?: string, link: string, cta: string }) {
+  return (
+    <a
+      href={link}
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <Button
+        className={`cursor-pointer px-5 py-5 bg-gradient-to-b from-[#2797FF] to-[#274AFF] text-[#DEE0E3] font-bold text-lg hover:opacity-90 ${className}`}
+      >
+        {cta}
+      </Button>
+    </a>
+  );
+}
