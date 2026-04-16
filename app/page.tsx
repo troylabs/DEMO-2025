@@ -217,8 +217,6 @@ export default function Home() {
               Exhibiting Startups
             </a> */}
           </div>
-
-          <EventRSVPButton className="text-sm px-4 py-2" link="https://doorlist.app/e/HBEZvDK?s=FCxxLpRWj1" cta="Framer Designathon" />
         </nav>
 
         {/* Hero Content */}
@@ -246,7 +244,7 @@ export default function Home() {
           {/* CTA Buttons */}
           <div className="mb-2 flex flex-col gap-2 sm:flex-row">
             <SponsorUsButton />
-            <StartupApplicationButton />
+            <EventRSVPButton link="https://doorlist.app/e/HBEZvDK?s=FCxxLpRWj1" cta="Framer Designathon" />
             <DemoRSVPButton />
           </div>
 
