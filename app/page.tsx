@@ -335,6 +335,228 @@ export default function Home() {
 
       </section>
 
+      {/* DEMO Agenda Section */}
+      <section className="relative z-10 w-full py-20">
+        <div className="relative mx-auto max-w-4xl px-8">
+          <p className="mb-2 text-sm text-blue-400">April 22, 2026</p>
+          <h2 className="mb-2 text-5xl font-bold text-white md:text-6xl">
+            <span className="gradient-text">DEMO Agenda</span>
+          </h2>
+          <p className="mb-12 text-lg text-gray-400">
+            A day full of speakers, pitches, and exhibitions
+          </p>
+
+          {/* Timeline */}
+          <div className="space-y-8">
+            {/* Doors Open */}
+            <div className="flex items-start gap-4">
+              <span className="mt-1 text-blue-400">✦</span>
+              <div>
+                <div className="flex items-baseline gap-3">
+                  <h3 className="text-xl font-bold text-white">Doors Open</h3>
+                  <span className="text-sm text-blue-400">10:30 AM</span>
+                </div>
+                <p className="text-sm text-gray-400">Doors for the Opening Ceremony will open at 10:30 AM.</p>
+              </div>
+            </div>
+
+            {/* Opening Ceremony */}
+            <div className="flex items-start gap-4">
+              <span className="mt-1 text-blue-400">✦</span>
+              <div>
+                <div className="flex items-baseline gap-3">
+                  <h3 className="text-xl font-bold text-white">Opening Ceremony</h3>
+                  <span className="text-sm text-blue-400">10:45 AM - 11:00 AM</span>
+                </div>
+                <p className="text-sm text-gray-400">The Opening Ceremony will feature an introduction by TroyLabs, speeches from sponsors, and welcome remarks.</p>
+              </div>
+            </div>
+
+            {/* Framer Workshop Introduction */}
+            <div className="flex items-start gap-4">
+              <span className="mt-1 text-blue-400">✦</span>
+              <div>
+                <div className="flex items-baseline gap-3">
+                  <h3 className="text-xl font-bold text-white">Framer Workshop Introduction</h3>
+                  <span className="text-sm text-blue-400">11:15 AM - 11:45 AM</span>
+                </div>
+                <p className="text-sm text-gray-400">Kick off the Framer Designathon with an introductory workshop.</p>
+              </div>
+            </div>
+
+            {/* Keynote 1 */}
+            <div className="flex items-start gap-4">
+              <span className="mt-1 text-blue-400">✦</span>
+              <div>
+                <div className="flex items-baseline gap-3">
+                  <h3 className="text-xl font-bold text-white">Keynote Speaker</h3>
+                  <span className="text-sm text-blue-400">12:00 PM - 1:00 PM</span>
+                </div>
+                <p className="text-sm text-gray-400">Amy Liu, Founder &amp; CEO of Tower 28 Beauty</p>
+                <div className="mt-2 flex items-center gap-3">
+                  <Image
+                    src="/headshots/Amy Liu Headshot 1.jpeg"
+                    alt="Amy Liu"
+                    width={40}
+                    height={40}
+                    className="rounded-full object-cover h-10 w-10"
+                  />
+                  <div>
+                    <p className="text-sm font-semibold text-blue-400">Amy Liu</p>
+                    <p className="text-xs text-gray-500">Founder &amp; CEO of Tower 28 Beauty</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Framer Workshop Sprint */}
+            <div className="flex items-start gap-4">
+              <span className="mt-1 text-blue-400">✦</span>
+              <div>
+                <div className="flex items-baseline gap-3">
+                  <h3 className="text-xl font-bold text-white">Framer Workshop Sprint</h3>
+                  <span className="text-sm text-blue-400">1:00 PM - 2:00 PM</span>
+                </div>
+                <p className="text-sm text-gray-400">Teams compete in the Framer Designathon sprint.</p>
+              </div>
+            </div>
+
+            {/* Keynote 2 */}
+            <div className="flex items-start gap-4">
+              <span className="mt-1 text-blue-400">✦</span>
+              <div>
+                <div className="flex items-baseline gap-3">
+                  <h3 className="text-xl font-bold text-white">Keynote Speaker</h3>
+                  <span className="text-sm text-blue-400">2:00 PM - 3:00 PM</span>
+                </div>
+                <p className="text-sm text-gray-400">Evan Spiegel, Co-Founder &amp; CEO of Snap Inc.</p>
+                <div className="mt-2 flex items-center gap-3">
+                  <Image
+                    src="/headshots/Evan Spiegel.jpeg"
+                    alt="Evan Spiegel"
+                    width={40}
+                    height={40}
+                    className="rounded-full object-cover h-10 w-10"
+                  />
+                  <div>
+                    <p className="text-sm font-semibold text-blue-400">Evan Spiegel</p>
+                    <p className="text-xs text-gray-500">Co-Founder &amp; CEO of Snap Inc.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Framer Workshop Judging */}
+            <div className="flex items-start gap-4">
+              <span className="mt-1 text-blue-400">✦</span>
+              <div>
+                <div className="flex items-baseline gap-3">
+                  <h3 className="text-xl font-bold text-white">Framer Workshop Judging &amp; Winner Announcement</h3>
+                  <span className="text-sm text-blue-400">3:00 PM - 3:30 PM</span>
+                </div>
+              </div>
+            </div>
+
+            {/* Startup Exhibition */}
+            <div className="flex items-start gap-4">
+              <span className="mt-1 text-blue-400">✦</span>
+              <div>
+                <div className="flex items-baseline gap-3">
+                  <h3 className="text-xl font-bold text-white">Startup Exhibition</h3>
+                  <span className="text-sm text-blue-400">3:00 PM - 5:00 PM</span>
+                </div>
+                <p className="text-sm text-gray-400">The Startup Exhibition is the main event, and will be open to all guests. Attendees can walk around the exhibition to look at the startups, network with founders, meet investors, and enjoy free food and merchandise.</p>
+              </div>
+            </div>
+
+            {/* Exclusive Founder Chat */}
+            <div className="flex items-start gap-4">
+              <span className="mt-1 text-blue-400">✦</span>
+              <div>
+                <div className="flex items-baseline gap-3">
+                  <h3 className="text-xl font-bold text-white">Exclusive Founder Chat</h3>
+                  <span className="text-sm text-blue-400">5:00 PM - 5:30 PM</span>
+                </div>
+                <p className="text-sm text-gray-400">Jimmy Douglas, CEO of Plug</p>
+              </div>
+            </div>
+
+            {/* Pitch Competition */}
+            <div className="flex items-start gap-4">
+              <span className="mt-1 text-blue-400">✦</span>
+              <div>
+                <div className="flex items-baseline gap-3">
+                  <h3 className="text-xl font-bold text-white">Pitch Competition</h3>
+                  <span className="text-sm text-blue-400">5:30 PM - 7:30 PM</span>
+                </div>
+                <p className="text-sm text-gray-400">Selected startups pitch to a panel of expert judges for cash prizes.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Keynote Speakers Section */}
+      <section className="relative z-10 w-full py-20">
+        <div className="relative mx-auto max-w-5xl px-8">
+          <p className="mb-2 text-sm text-gray-400">Inspiring Founder Stories</p>
+          <h2 className="mb-2 text-4xl font-bold text-white md:text-5xl">
+            Keynote Speakers
+          </h2>
+          <p className="mb-12 text-gray-400">Tower 28 Beauty &amp; Snap Inc.</p>
+
+          {/* Amy Liu */}
+          <div className="mb-16 flex flex-col gap-8 md:flex-row">
+            <div className="flex-shrink-0">
+              <Image
+                src="/headshots/Amy Liu Headshot 1.jpeg"
+                alt="Amy Liu"
+                width={200}
+                height={250}
+                className="rounded-lg object-cover h-[250px] w-[200px]"
+              />
+            </div>
+            <div className="flex-1">
+              <h3 className="mb-1 text-2xl font-bold text-blue-400">Amy Liu</h3>
+              <p className="mb-4 text-sm font-semibold text-gray-300">
+                Founder &amp; CEO of Tower 28 Beauty
+              </p>
+              <p className="mb-3 text-sm leading-relaxed text-gray-400">
+                Amy Liu is the Founder and CEO of Tower 28, the best-selling beauty brand designed for sensitive skin, and made for all. A longtime eczema sufferer, Amy spent over 20 years as a beauty executive before launching Tower 28 in 2019. Tower 28&apos;s award-winning SOS skincare line is the first to earn seals of approval from the National Psoriasis Foundation, National Rosacea Society, and National Eczema Association&mdash;a testament to its commitment to skin-safe, effective formulations.
+              </p>
+              <p className="text-sm leading-relaxed text-gray-400">
+                Amy is a true leader in the industry, founding Clean Beauty Summer School in 2020 to support minority-owned brands and creators. Her influence has earned her prestigious accolades, including the USC Entrepreneur of the Year Award, the CEW Visionary Award, and the EY Entrepreneur of the Year 2024 Greater Los Angeles Award. She also serves on the National Eczema Association&apos;s Board and is a member of YPO Los Angeles, further cementing her commitment to leadership and advocacy.
+              </p>
+            </div>
+          </div>
+
+          {/* Evan Spiegel */}
+          <div className="flex flex-col gap-8 md:flex-row">
+            <div className="flex-shrink-0">
+              <Image
+                src="/headshots/Evan Spiegel.jpeg"
+                alt="Evan Spiegel"
+                width={200}
+                height={250}
+                className="rounded-lg object-cover h-[250px] w-[200px]"
+              />
+            </div>
+            <div className="flex-1">
+              <h3 className="mb-1 text-2xl font-bold text-blue-400">Evan Spiegel</h3>
+              <p className="mb-4 text-sm font-semibold text-gray-300">
+                Co-Founder &amp; CEO of Snap Inc.
+              </p>
+              <p className="mb-3 text-sm leading-relaxed text-gray-400">
+                Evan Spiegel is the co-founder and CEO of Snap Inc., the company behind Snapchat. He famously turned down a $3 billion acquisition offer from Facebook at 23 years old, and built a platform now used by over 800 million people worldwide. Under his leadership, Snap pioneered Stories, AR filters, and the ephemeral messaging format that reshaped how a generation communicates.
+              </p>
+              <p className="text-sm leading-relaxed text-gray-400">
+                As one of the youngest CEOs to take a company public, Evan has consistently bet on creativity and culture over convention, building Snap into a global camera and communications company now valued at over $15 billion. At this keynote, he&apos;s sharing his vision for the future of augmented reality, entrepreneurship, and what it means to build something truly original.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* DEMO Legacy Section */}
       <section className="relative z-10 w-full py-20">
         <div className="relative flex flex-col items-center px-8 text-center">
@@ -398,6 +620,112 @@ export default function Home() {
         </div>
 
       </section> */}
+
+      {/* Pitch Competition Section */}
+      <section className="relative z-10 w-full py-20">
+        <div className="relative mx-auto max-w-5xl px-8">
+          <p className="mb-2 text-sm text-gray-400">Innovation in Action</p>
+          <h2 className="mb-2 text-4xl font-bold md:text-5xl">
+            <span className="gradient-text">Pitch Competition</span>
+          </h2>
+          <p className="mb-8 text-lg text-gray-400">Emerging Startups, Expert Judges</p>
+
+          <p className="mb-12 max-w-2xl text-lg text-gray-300">
+            Pitch Competitions for selected startups will last from 5:30 PM to 7:30 PM, and winners will receive tuition-deductible prizes as awarded by the Lloyd Greif Center for Entrepreneurial Studies.
+          </p>
+
+          {/* Prize amounts */}
+          <div className="mb-16 flex items-start gap-16">
+            <div>
+              <p className="gradient-text text-7xl font-bold md:text-8xl">$7,500</p>
+              <p className="text-sm text-gray-400">First Place Prize</p>
+            </div>
+            <div>
+              <p className="gradient-text text-7xl font-bold md:text-8xl">$3,000</p>
+              <p className="text-sm text-gray-400">Second Place Prize</p>
+            </div>
+          </div>
+
+          {/* Judges */}
+          <h3 className="mb-8 text-xl text-gray-300">Our Judges</h3>
+          <div className="grid grid-cols-2 gap-8 md:grid-cols-5">
+            {/* Alex Canter */}
+            <div className="flex flex-col items-start gap-3">
+              <Image
+                src="/headshots/alex.jpeg"
+                alt="Alex Canter"
+                width={64}
+                height={64}
+                className="rounded-full object-cover h-16 w-16"
+              />
+              <div>
+                <p className="text-sm font-bold text-blue-400">Alex Canter</p>
+                <p className="text-xs text-gray-400">CEO &amp; Co-Founder of Maggie&apos;s Refuel, 2x exited founder, and angel investor</p>
+              </div>
+            </div>
+
+            {/* Timothy Li */}
+            <div className="flex flex-col items-start gap-3">
+              <Image
+                src="/headshots/timothy li.jpeg"
+                alt="Timothy Li"
+                width={64}
+                height={64}
+                className="rounded-full object-cover h-16 w-16"
+              />
+              <div>
+                <p className="text-sm font-bold text-blue-400">Timothy Li</p>
+                <p className="text-xs text-gray-400">CEO &amp; Co-Founder of LendAPI</p>
+              </div>
+            </div>
+
+            {/* Sean Kohli */}
+            <div className="flex flex-col items-start gap-3">
+              <Image
+                src="/headshots/sean.jpeg"
+                alt="Sean Kohli"
+                width={64}
+                height={64}
+                className="rounded-full object-cover h-16 w-16"
+              />
+              <div>
+                <p className="text-sm font-bold text-blue-400">Sean Kohli</p>
+                <p className="text-xs text-gray-400">General Partner of Why You Should Join and Board of Team Vitality</p>
+              </div>
+            </div>
+
+            {/* Carmen Palafox */}
+            <div className="flex flex-col items-start gap-3">
+              <Image
+                src="/headshots/carmen.jpeg"
+                alt="Carmen Palafox"
+                width={64}
+                height={64}
+                className="rounded-full object-cover h-16 w-16"
+              />
+              <div>
+                <p className="text-sm font-bold text-blue-400">Carmen Palafox</p>
+                <p className="text-xs text-gray-400">Founding Partner of 2045 Ventures, Partner of MiLA Capital &amp; How Women Invest, and USC Marshall Adjunct Professor</p>
+              </div>
+            </div>
+
+            {/* Abdo John Hajj */}
+            <div className="flex flex-col items-start gap-3">
+              <Image
+                src="/headshots/abdo.jpeg"
+                alt="Abdo John Hajj"
+                width={64}
+                height={64}
+                className="rounded-full object-cover h-16 w-16"
+              />
+              <div>
+                <p className="text-sm font-bold text-blue-400">Abdo John Hajj</p>
+                <p className="text-xs text-gray-400">Co-Founder &amp; Managing Partner of Type One Ventures</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
       {/* Why DEMO Section */}
       <section className="relative z-10 w-full py-20">
