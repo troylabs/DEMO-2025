@@ -213,9 +213,9 @@ export default function Home() {
             >
               Startup Application
             </a>
-            {/* <a href="#exhibiting-startups" className="transition-colors hover:text-white">
+            <a href="#exhibiting-startups" className="transition-colors hover:text-white">
               Exhibiting Startups
-            </a> */}
+            </a>
           </div>
         </nav>
 
@@ -610,7 +610,7 @@ export default function Home() {
       </section>
 
       {/* Exhibiting Startups Section */}
-      {/* <section id="exhibiting-startups" className="relative z-10 w-full py-20">
+      <section id="exhibiting-startups" className="relative z-10 w-full py-20">
         <div className="relative flex flex-col items-center px-8">
           <h2 className="gradient-text mb-12 text-5xl font-bold md:text-7xl">
             Exhibiting Startups
@@ -618,8 +618,7 @@ export default function Home() {
 
           <StartupDatabase />
         </div>
-
-      </section> */}
+      </section>
 
       {/* Pitch Competition Section */}
       <section className="relative z-10 w-full py-20">
