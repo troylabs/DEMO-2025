@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 80" width="400" height="80">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&amp;family=Jura:wght@500&amp;display=swap');
+    </style>
+  </defs>
+  
+  <!-- Logomark - Detection Viewfinder Frame -->
+  <g transform="translate(10, 8)">
+    <!-- Outer brackets - Deep Navy on light, White on dark -->
+    <!-- Top-left bracket -->
+    <path d="M0,0 L0,18 L6,18 L6,6 L18,6 L18,0 Z" fill="#FFFFFF"/>
+    <!-- Top-right bracket -->
+    <path d="M46,0 L46,6 L58,6 L58,18 L64,18 L64,0 Z" fill="#FFFFFF"/>
+    <!-- Bottom-left bracket -->
+    <path d="M0,46 L0,64 L18,64 L18,58 L6,58 L6,46 Z" fill="#FFFFFF"/>
+    <!-- Bottom-right bracket -->
+    <path d="M58,46 L58,58 L46,58 L46,64 L64,64 L64,46 Z" fill="#FFFFFF"/>
+    
+    <!-- Center diamond - Signal Amber -->
+    <rect x="25" y="25" width="14" height="14" rx="1" transform="rotate(45, 32, 32)" fill="#F97316"/>
+    
+    <!-- Scan lines - Signal Amber -->
+    <rect x="10" y="30" width="12" height="4" rx="1" fill="#F97316"/>
+    <rect x="42" y="30" width="12" height="4" rx="1" fill="#F97316"/>
+  </g>
+  
+  <!-- Wordmark -->
+  <text x="90" y="54" font-family="'Big Shoulders Display', sans-serif" font-weight="700" font-size="48" fill="#FFFFFF" letter-spacing="2">TECTIV</text>
+  <text x="295" y="54" font-family="'Jura', sans-serif" font-weight="500" font-size="42" fill="#F97316" letter-spacing="3">AI</text>
+</svg>
