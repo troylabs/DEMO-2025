@@ -487,7 +487,7 @@ export default function Home() {
               <div>
                 <div className="flex items-baseline gap-3">
                   <h3 className="text-xl font-bold text-white">Pitch Competition</h3>
-                  <span className="text-sm text-blue-400">5:30 PM - 7:30 PM</span>
+                  <span className="text-sm text-blue-400">5:30 PM - 7:00 PM</span>
                 </div>
                 <p className="text-sm text-gray-400">Selected startups pitch to a panel of expert judges for cash prizes.</p>
               </div>
@@ -503,7 +503,7 @@ export default function Home() {
           <h2 className="mb-2 text-4xl font-bold text-white md:text-5xl">
             Keynote Speakers
           </h2>
-          <p className="mb-12 text-gray-400">Tower 28 Beauty &amp; Snap Inc.</p>
+          <p className="mb-12 text-gray-400">Tower 28 Beauty, Snap Inc. &amp; Plug</p>
 
           {/* Amy Liu */}
           <div className="mb-16 flex flex-col gap-8 md:flex-row">
@@ -531,7 +531,7 @@ export default function Home() {
           </div>
 
           {/* Evan Spiegel */}
-          <div className="flex flex-col gap-8 md:flex-row">
+          <div className="mb-16 flex flex-col gap-8 md:flex-row">
             <div className="flex-shrink-0">
               <Image
                 src="/headshots/Evan Spiegel.jpeg"
@@ -551,6 +551,31 @@ export default function Home() {
               </p>
               <p className="text-sm leading-relaxed text-gray-400">
                 As one of the youngest CEOs to take a company public, Evan has consistently bet on creativity and culture over convention, building Snap into a global camera and communications company now valued at over $15 billion. At this keynote, he&apos;s sharing his vision for the future of augmented reality, entrepreneurship, and what it means to build something truly original.
+              </p>
+            </div>
+          </div>
+
+          {/* Jimmy Douglas */}
+          <div className="flex flex-col gap-8 md:flex-row">
+            <div className="flex-shrink-0">
+              <Image
+                src="/headshots/jimmy.jpeg"
+                alt="Jimmy Douglas"
+                width={200}
+                height={250}
+                className="rounded-lg object-cover h-[250px] w-[200px]"
+              />
+            </div>
+            <div className="flex-1">
+              <h3 className="mb-1 text-2xl font-bold text-blue-400">Jimmy Douglas</h3>
+              <p className="mb-4 text-sm font-semibold text-gray-300">
+                Founder &amp; CEO of Plug
+              </p>
+              <p className="mb-3 text-sm leading-relaxed text-gray-400">
+                Jimmy Douglas is a serial entrepreneur and the visionary behind Plug, a Santa Monica-based startup building the &ldquo;brain&rdquo; for EV valuations. After spending 5+ years in executive roles at Tesla, Jimmy realized that traditional car auctions were broken for EVs and set out to fix the infrastructure from the ground up.
+              </p>
+              <p className="text-sm leading-relaxed text-gray-400">
+                Jimmy joins us at DEMO to share his journey from the front lines of Tesla to raising a $20M Series A and scaling a category-defining company.
               </p>
             </div>
           </div>
@@ -630,7 +655,7 @@ export default function Home() {
           <p className="mb-8 text-lg text-gray-400">Emerging Startups, Expert Judges</p>
 
           <p className="mb-12 max-w-2xl text-lg text-gray-300">
-            Pitch Competitions for selected startups will last from 5:30 PM to 7:30 PM, and winners will receive tuition-deductible prizes as awarded by the Lloyd Greif Center for Entrepreneurial Studies.
+            Pitch Competitions for selected startups will last from 5:30 PM to 7:00 PM, and winners will receive tuition-deductible prizes as awarded by the Lloyd Greif Center for Entrepreneurial Studies.
           </p>
 
           {/* Prize amounts */}
