@@ -409,6 +409,18 @@ export default function Home() {
               </div>
             </div>
 
+            {/* Lunch */}
+            <div className="flex items-start gap-4">
+              <span className="mt-1 text-blue-400">✦</span>
+              <div>
+                <div className="flex items-baseline gap-3">
+                  <h3 className="text-xl font-bold text-white">Lunch</h3>
+                  <span className="text-sm text-blue-400">1:00 PM - 2:00 PM</span>
+                </div>
+                <p className="text-sm text-gray-400">Catered by Lucille&apos;s Barbecue</p>
+              </div>
+            </div>
+
             {/* Framer Workshop Sprint */}
             <div className="flex items-start gap-4">
               <span className="mt-1 text-blue-400">✦</span>
